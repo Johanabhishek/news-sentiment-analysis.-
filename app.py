@@ -1,5 +1,6 @@
 import streamlit as st
 from utils import fetch_news_articles, analyze_sentiment, text_to_speech
+from utils.utils import fetch_news_articles
 
 def main():
     st.title("Company News Sentiment Analyzer")
